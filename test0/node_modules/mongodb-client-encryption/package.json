@@ -1,0 +1,97 @@
+{
+  "name": "mongodb-client-encryption",
+  "version": "6.0.0",
+  "description": "Official client encryption module for the MongoDB Node.js driver",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "addon",
+    "lib",
+    "src",
+    "binding.gyp"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "install": "prebuild-install --runtime napi --tag-prefix node-v || node-gyp rebuild",
+    "build:ts": "tsc",
+    "clang-format": "clang-format --style=file:.clang-format --Werror -i addon/*",
+    "check:eslint": "eslint src test",
+    "check:clang-format": "clang-format --style=file:.clang-format --dry-run --Werror addon/*",
+    "test": "mocha test",
+    "prepare": "node etc/prepare.js",
+    "rebuild": "prebuild --compile",
+    "release": "standard-version --tag-prefix node-v --path bindings/node",
+    "prebuild": "prebuild --runtime napi --strip --verbose --tag-prefix node-v --all"
+  },
+  "author": {
+    "name": "The MongoDB NodeJS Team",
+    "email": "dbx-node@mongodb.com"
+  },
+  "bugs": {
+    "url": "https://jira.mongodb.org/projects/NODE/issues/"
+  },
+  "license": "Apache-2.0",
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^4.3.0",
+    "prebuild-install": "^7.1.1"
+  },
+  "devDependencies": {
+    "@types/bindings": "^1.5.1",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.4.9",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "bson": "^5.4.0",
+    "chai": "^4.3.7",
+    "chai-subset": "^1.6.0",
+    "clang-format": "^1.8.0",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "mocha": "^10.2.0",
+    "node-gyp": "^9.4.0",
+    "prebuild": "^11.0.4",
+    "prettier": "^2.8.8",
+    "sinon": "^15.2.0",
+    "sinon-chai": "^3.7.0",
+    "source-map-support": "^0.5.21",
+    "standard-version": "^9.5.0",
+    "tar": "^6.1.15",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "typescript-cached-transpile": "^0.0.6"
+  },
+  "overrides": {
+    "prebuild": {
+      "node-gyp": "$node-gyp"
+    }
+  },
+  "engines": {
+    "node": ">=16.20.1"
+  },
+  "binary": {
+    "napi_versions": [
+      4
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mongodb/libmongocrypt",
+    "directory": "bindings/node"
+  },
+  "tsd": {
+    "directory": "test/types",
+    "compilerOptions": {
+      "strict": true,
+      "target": "esnext",
+      "module": "commonjs",
+      "moduleResolution": "node"
+    }
+  }
+}
