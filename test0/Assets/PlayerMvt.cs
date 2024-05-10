@@ -3,8 +3,8 @@ using UnityEngine;
 public class PlayerMvt : MonoBehaviour {
 
     public Rigidbody rb;
-    public float forwardForce = 2000f;
-    public float sideForce = 4000f;
+    public float forwardForce = 4000f;
+    public float sidewayForce = 100f;
 
     // Start is called before the first frame update
     void Start() {
@@ -21,10 +21,10 @@ public class PlayerMvt : MonoBehaviour {
         rb.AddForce(0, 0, forwardForce * Time.deltaTime); // force on z axis  
 
         if (Input.GetKey("d")) {
-            rb.AddForce(sideForce * Time.deltaTime, 0, 0); // force on x axis  
+            rb.AddForce(sidewayForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange); // force on x axis  
         }
         if (Input.GetKey("a")) {
-            rb.AddForce(-sideForce * Time.deltaTime, 0, 0); // force on x axis  
+            rb.AddForce(- sidewayForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange); // force on x axis  
         }
     }
 }
