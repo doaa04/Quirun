@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638494811801700807
-    m_Hash: 582842879
+      ticks: 638510630156979471
+    m_Hash: 130164918
   m_LockFileStatus:
     m_FilePath: C:/Users/DOAA/Documents/GitHub/gameTest/test0/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638494812472212225
-    m_Hash: 146018820
+      ticks: 638510630519090106
+    m_Hash: 3417067026
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -249,6 +249,489 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.ide.vscode@1.2.5
+  testable: 0
+  isDirectDependency: 1
+  version: 1.2.5
+  source: 1
+  resolvedPath: C:\Users\DOAA\Documents\GitHub\gameTest\test0\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  assetPath: Packages/com.unity.ide.vscode
+  name: com.unity.ide.vscode
+  displayName: Visual Studio Code Editor
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Code editor integration for supporting Visual Studio Code as code
+    editor for unity. Adds support for generating csproj files for intellisense purposes,
+    auto discovery of installations, etc.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.7
+    - 1.1.0
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    compatible:
+    - 1.2.5
+    recommended: 1.2.5
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637800255360000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+    revision: b0740c80bfc2440527c317109f7c3d9100132722
+    path: 
+  unityLifecycle:
+    version: 1.2.5
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.postprocessing@3.4.0
+  testable: 0
+  isDirectDependency: 1
+  version: 3.4.0
+  source: 1
+  resolvedPath: C:\Users\DOAA\Documents\GitHub\gameTest\test0\Library\PackageCache\com.unity.postprocessing@3.4.0
+  assetPath: Packages/com.unity.postprocessing
+  name: com.unity.postprocessing
+  displayName: Post Processing
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: The post-processing stack (v2) comes with a collection of effects
+    and image filters you can apply to your cameras to improve the visuals of your
+    games.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.7
+    - 0.1.8
+    - 2.0.0-beta
+    - 2.0.1-beta
+    - 2.0.2-preview
+    - 2.0.3-preview
+    - 2.0.5-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 2.0.9-preview
+    - 2.0.10-preview
+    - 2.0.11-preview
+    - 2.0.12-preview
+    - 2.0.13-preview
+    - 2.0.14-preview
+    - 2.0.15-preview
+    - 2.0.16-preview
+    - 2.0.17-preview
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.1.7
+    - 2.2.1
+    - 2.2.2
+    - 2.3.0
+    - 3.0.1
+    - 3.0.3
+    - 3.1.0
+    - 3.1.1
+    - 3.2.0
+    - 3.2.1
+    - 3.2.2
+    - 3.3.0
+    - 3.4.0
+    compatible:
+    - 3.4.0
+    recommended: 3.4.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638384897060000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.postprocessing@3.4/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Graphics.git
+    revision: 54427d2529ad1a9e8f31c693d751c6371f914e40
+    path: 
+  unityLifecycle:
+    version: 3.4.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.probuilder@5.2.2
+  testable: 0
+  isDirectDependency: 1
+  version: 5.2.2
+  source: 1
+  resolvedPath: C:\Users\DOAA\Documents\GitHub\gameTest\test0\Library\PackageCache\com.unity.probuilder@5.2.2
+  assetPath: Packages/com.unity.probuilder
+  name: com.unity.probuilder
+  displayName: ProBuilder
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: 'Build, edit, and texture custom geometry in Unity. Use ProBuilder
+    for in-scene level design, prototyping, collision meshes, all with on-the-fly
+    play-testing.
+
+
+    Advanced features include UV editing, vertex colors, parametric
+    shapes, and texture blending. With ProBuilder''s model export feature it''s easy
+    to tweak your levels in any external 3D modelling suite.
+
+
+    If you are using
+    URP/HDRP, be careful to also import the corresponding sample project in the section
+    below to get the proper materials.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.0.6
+    - 3.0.8
+    - 3.0.9
+    - 3.10.1
+    - 4.0.2
+    - 4.0.3
+    - 4.0.4
+    - 4.0.5
+    - 4.1.0
+    - 4.1.2
+    - 4.2.1
+    - 4.2.2-preview.1
+    - 4.2.2-preview.2
+    - 4.2.3
+    - 4.2.4-preview.0
+    - 4.3.0-preview.0
+    - 4.3.0-preview.1
+    - 4.3.0-preview.2
+    - 4.3.0-preview.4
+    - 4.3.0-preview.6
+    - 4.3.0-preview.7
+    - 4.3.0-preview.8
+    - 4.3.0-preview.9
+    - 4.3.1
+    - 4.4.0-preview.1
+    - 4.4.0
+    - 4.5.0
+    - 4.5.2
+    - 5.0.0-pre.7
+    - 5.0.0-pre.10
+    - 5.0.1
+    - 5.0.3
+    - 5.0.4
+    - 5.0.6
+    - 5.0.7
+    - 5.1.0
+    - 5.1.1
+    - 5.2.0
+    - 5.2.2
+    - 6.0.1-pre.1
+    - 6.0.1-pre.2
+    - 6.0.1
+    compatible:
+    - 5.2.2
+    recommended: 5.2.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - 3d
+  - model
+  - mesh
+  - modeling
+  - geometry
+  - shape
+  - cube
+  - blender
+  - max
+  - maya
+  - fbx
+  - obj
+  - level
+  - design
+  - block
+  - greybox
+  - graybox
+  - whitebox
+  - prototype
+  - probuilder
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638368700860000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.probuilder@5.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.probuilder.git
+    revision: d1aaa03087398cf9477de8e6cfbfb66b180ab71d
+    path: 
+  unityLifecycle:
+    version: 5.2.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.shadergraph@14.0.11
+  testable: 0
+  isDirectDependency: 1
+  version: 14.0.11
+  source: 2
+  resolvedPath: C:\Users\DOAA\Documents\GitHub\gameTest\test0\Library\PackageCache\com.unity.shadergraph@14.0.11
+  assetPath: Packages/com.unity.shadergraph
+  name: com.unity.shadergraph
+  displayName: Shader Graph
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Shader Graph package adds a visual Shader editing tool to Unity.
+    You can use this tool to create Shaders in a visual way instead of writing code.
+    Specific render pipelines can implement specific graph features. Currently, both
+    the High Definition Rendering Pipeline and the Universal Rendering Pipeline support
+    Shader Graph.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.8
+    - 0.1.9
+    - 0.1.17
+    - 1.0.0-beta
+    - 1.1.1-preview
+    - 1.1.2-preview
+    - 1.1.3-preview
+    - 1.1.4-preview
+    - 1.1.5-preview
+    - 1.1.6-preview
+    - 1.1.8-preview
+    - 1.1.9-preview
+    - 2.0.1-preview
+    - 2.0.3-preview
+    - 2.0.4-preview
+    - 2.0.4-preview.1
+    - 2.0.5-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 3.0.0-preview
+    - 3.1.0-preview
+    - 3.3.0-preview
+    - 4.0.0-preview
+    - 4.0.1-preview
+    - 4.1.0-preview
+    - 4.2.0-preview
+    - 4.3.0-preview
+    - 4.6.0-preview
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.0.0-preview
+    - 5.1.0
+    - 5.2.0
+    - 5.2.1
+    - 5.2.2
+    - 5.2.3
+    - 5.3.1
+    - 5.6.1
+    - 5.7.2
+    - 5.8.2
+    - 5.9.0
+    - 5.10.0
+    - 5.13.0
+    - 5.16.1
+    - 6.5.2
+    - 6.5.3
+    - 6.7.1
+    - 6.9.0
+    - 6.9.1
+    - 6.9.2
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.14
+    - 9.0.0-preview.34
+    - 9.0.0-preview.55
+    - 9.0.0-preview.72
+    - 10.0.0-preview.27
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 14.0.11
+    compatible:
+    - 14.0.11
+    recommended: 14.0.11
+    deprecated: []
+  dependencies:
+  - name: com.unity.render-pipelines.core
+    version: 14.0.11
+  - name: com.unity.searcher
+    version: 4.9.2
+  resolvedDependencies:
+  - name: com.unity.render-pipelines.core
+    version: 14.0.11
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.searcher
+    version: 4.9.2
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 14.0.11
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -2685,6 +3168,303 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+- packageId: com.unity.render-pipelines.core@14.0.11
+  testable: 0
+  isDirectDependency: 0
+  version: 14.0.11
+  source: 2
+  resolvedPath: C:\Users\DOAA\Documents\GitHub\gameTest\test0\Library\PackageCache\com.unity.render-pipelines.core@14.0.11
+  assetPath: Packages/com.unity.render-pipelines.core
+  name: com.unity.render-pipelines.core
+  displayName: Core RP Library
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: SRP Core makes it easier to create or customize a Scriptable Render
+    Pipeline (SRP). SRP Core contains reusable code, including boilerplate code for
+    working with platform-specific graphics APIs, utility functions for common rendering
+    operations, and  shader libraries. The code in SRP Core is use by the High Definition
+    Render Pipeline (HDRP) and Universal Render Pipeline (URP). If you are creating
+    a custom SRP from scratch or customizing a prebuilt SRP, using SRP Core will
+    save you time.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.21
+    - 0.1.27
+    - 0.1.28
+    - 1.0.0-beta
+    - 1.0.1-beta
+    - 1.1.1-preview
+    - 1.1.2-preview
+    - 1.1.4-preview
+    - 1.1.5-preview
+    - 1.1.8-preview
+    - 1.1.10-preview
+    - 1.1.11-preview
+    - 2.0.1-preview
+    - 2.0.3-preview
+    - 2.0.4-preview
+    - 2.0.4-preview.1
+    - 2.0.5-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 3.0.0-preview
+    - 3.1.0-preview
+    - 3.3.0-preview
+    - 4.0.0-preview
+    - 4.0.1-preview
+    - 4.1.0-preview
+    - 4.2.0-preview
+    - 4.3.0-preview
+    - 4.6.0-preview
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.0.0-preview
+    - 5.1.0
+    - 5.2.0
+    - 5.2.1
+    - 5.2.2
+    - 5.2.3
+    - 5.3.1
+    - 5.6.1
+    - 5.7.2
+    - 5.8.2
+    - 5.9.0
+    - 5.10.0
+    - 5.13.0
+    - 5.16.1
+    - 6.5.2
+    - 6.5.3
+    - 6.7.1
+    - 6.9.0
+    - 6.9.1
+    - 6.9.2
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.13
+    - 9.0.0-preview.35
+    - 9.0.0-preview.38
+    - 9.0.0-preview.60
+    - 9.0.0-preview.77
+    - 10.0.0-preview.30
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 14.0.11
+    compatible:
+    - 14.0.11
+    recommended: 14.0.11
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 14.0.11
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.searcher@4.9.2
+  testable: 0
+  isDirectDependency: 0
+  version: 4.9.2
+  source: 1
+  resolvedPath: C:\Users\DOAA\Documents\GitHub\gameTest\test0\Library\PackageCache\com.unity.searcher@4.9.2
+  assetPath: Packages/com.unity.searcher
+  name: com.unity.searcher
+  displayName: Searcher
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: General search window for use in the Editor. First target use is for
+    GraphView node search.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 4.9.2
+    compatible:
+    - 4.9.2
+    recommended: 4.9.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - search
+  - searcher
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
+    revision: 7f9f75b04e97cf09c8ddc3968d059e74d6a2460a
+    path: 
+  unityLifecycle:
+    version: 4.9.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.settings-manager@2.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.1
+  source: 1
+  resolvedPath: C:\Users\DOAA\Documents\GitHub\gameTest\test0\Library\PackageCache\com.unity.settings-manager@2.0.1
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 2.0.1
+    recommended: 2.0.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637744099390000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    path: 
+  unityLifecycle:
+    version: 2.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 0
@@ -2869,74 +3649,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 3.0.28
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.ide.vscode@1.2.5
-  testable: 0
-  isDirectDependency: 0
-  version: 1.2.5
-  source: 1
-  resolvedPath: C:\Users\DOAA\Documents\GitHub\gameTest\test0\Library\PackageCache\com.unity.ide.vscode@1.2.5
-  assetPath: Packages/com.unity.ide.vscode
-  name: com.unity.ide.vscode
-  displayName: Visual Studio Code Editor
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: Code editor integration for supporting Visual Studio Code as code
-    editor for unity. Adds support for generating csproj files for intellisense purposes,
-    auto discovery of installations, etc.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.2
-    - 1.0.3
-    - 1.0.7
-    - 1.1.0
-    - 1.1.2
-    - 1.1.3
-    - 1.1.4
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.2.4
-    - 1.2.5
-    compatible:
-    - 1.2.5
-    recommended: 1.2.5
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637800255360000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
-    revision: b0740c80bfc2440527c317109f7c3d9100132722
-    path: 
-  unityLifecycle:
-    version: 1.2.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3315,68 +4027,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.5
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.settings-manager@2.0.1
-  testable: 0
-  isDirectDependency: 0
-  version: 2.0.1
-  source: 1
-  resolvedPath: C:\Users\DOAA\Documents\GitHub\gameTest\test0\Library\PackageCache\com.unity.settings-manager@2.0.1
-  assetPath: Packages/com.unity.settings-manager
-  name: com.unity.settings-manager
-  displayName: Settings Manager
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: A framework for making any serializable field a setting, complete
-    with a pre-built settings interface.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.0-preview.4
-    - 0.1.0-preview.8
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
-    compatible:
-    - 2.0.1
-    recommended: 2.0.1
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637744099390000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
-    path: 
-  unityLifecycle:
-    version: 2.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0

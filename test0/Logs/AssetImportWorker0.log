@@ -4,7 +4,7 @@ OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'fr' Physical Memory
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.25f1-x86_64\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ C:/Users/DOAA/Documents/GitHub/gameTest/test0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55805
+62439
 Successfully changed project path to: C:/Users/DOAA/Documents/GitHub/gameTest/test0
 C:/Users/DOAA/Documents/GitHub/gameTest/test0
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,15 +49,15 @@ C:/Users/DOAA/Documents/GitHub/gameTest/test0
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20472] Host "[IP] 172.26.80.1 [Port] 0 [Flags] 2 [Guid] 3240570960 [EditorId] 3240570960 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RV2S5RU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6196] Host "[IP] 172.26.80.1 [Port] 0 [Flags] 2 [Guid] 2886354357 [EditorId] 2886354357 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RV2S5RU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20472] Host "[IP] 172.26.80.1 [Port] 0 [Flags] 2 [Guid] 3240570960 [EditorId] 3240570960 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RV2S5RU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6196] Host "[IP] 172.26.80.1 [Port] 0 [Flags] 2 [Guid] 2886354357 [EditorId] 2886354357 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RV2S5RU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 8.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.25f1 (530ae0ba3889)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/DOAA/Documents/GitHub/gameTest/test0/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
@@ -67,49 +67,50 @@ Direct3D:
     VRAM:     7880 MB
     Driver:   31.0.101.4953
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1-x86_64/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Trying to register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll (that doesn't exist). Retrying without overrides.
-Platform support module is not available: C:/Program Files/Unity/Hub/Editor/2022.3.25f1-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007936 seconds.
-- Loaded All Assemblies, in  0.559 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006298 seconds.
+- Loaded All Assemblies, in  0.467 seconds
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 341 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.431 seconds
-Domain Reload Profiling: 988ms
-	BeginReloadAssembly (156ms)
+- Finished resetting the current domain, in  0.753 seconds
+Domain Reload Profiling: 1219ms
+	BeginReloadAssembly (147ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (86ms)
-	LoadAllAssembliesAndSetupDomain (237ms)
-		LoadAssemblies (153ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (145ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (235ms)
-			TypeCache.Refresh (233ms)
-				TypeCache.ScanAssembly (214ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (162ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (432ms)
+	FinalizeReload (753ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (325ms)
+		SetupLoadedEditorAssemblies (681ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (479ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (224ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (139ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,55 +118,56 @@ Domain Reload Profiling: 988ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.946 seconds
-Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.785 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.898 seconds
-Domain Reload Profiling: 1844ms
-	BeginReloadAssembly (208ms)
+- Finished resetting the current domain, in  0.682 seconds
+Domain Reload Profiling: 1465ms
+	BeginReloadAssembly (189ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (45ms)
+	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (627ms)
-		LoadAssemblies (408ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (491ms)
+		LoadAssemblies (359ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (323ms)
-			TypeCache.Refresh (279ms)
-				TypeCache.ScanAssembly (259ms)
-			ScanForSourceGeneratedMonoScriptInfo (32ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (899ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (182ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (683ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (647ms)
+		SetupLoadedEditorAssemblies (487ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (531ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (358ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3144 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.2 KB). Loaded Objects now: 3609.
-Memory consumption went from 126.7 MB to 126.6 MB.
-Total: 4.370900 ms (FindLiveObjects: 0.345200 ms CreateObjectMapping: 0.310700 ms MarkObjects: 3.547900 ms  DeleteObjects: 0.165000 ms)
+Unloading 3520 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (114.8 KB). Loaded Objects now: 4002.
+Memory consumption went from 158.2 MB to 158.0 MB.
+Total: 3.935900 ms (FindLiveObjects: 0.369000 ms CreateObjectMapping: 0.184700 ms MarkObjects: 3.142400 ms  DeleteObjects: 0.238000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,79 +183,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 478158.446086 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3304e493a24f65937b7f3fbfbd1a948a') in 0.015263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 67.630750 seconds.
-  path: Assets/importedPacks/polygonTrees/polygonTrees/models/modelsWithLods/trees/tree1L/tree1L.fbx
-  artifactKey: Guid(73cef2a46a933fe80aea8f75f4b3caa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/importedPacks/polygonTrees/polygonTrees/models/modelsWithLods/trees/tree1L/tree1L.fbx using Guid(73cef2a46a933fe80aea8f75f4b3caa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1843fd3fbc9146d43739ee4788f8af54') in 0.250896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 255.080960 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(0e65ce7073d131341ba6d0afc26249c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(0e65ce7073d131341ba6d0afc26249c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4b376b5498764cee83103effae6589') in 0.023293 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.426 seconds
-Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.693 seconds
+Refreshing native plugins compatible for Editor in 8.85 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.484 seconds
-Domain Reload Profiling: 1909ms
-	BeginReloadAssembly (162ms)
+- Finished resetting the current domain, in  1.828 seconds
+Domain Reload Profiling: 4515ms
+	BeginReloadAssembly (1890ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (200ms)
-		LoadAssemblies (268ms)
+		CreateAndSetChildDomain (1583ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (77ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (595ms)
+		LoadAssemblies (637ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1485ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (20ms)
+			ScanForSourceGeneratedMonoScriptInfo (53ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1829ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (805ms)
+		SetupLoadedEditorAssemblies (739ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
+			InitializePlatformSupportModulesInManaged (104ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (613ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (469ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Refreshing native plugins compatible for Editor in 3.75 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 8.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (430.6 KB). Loaded Objects now: 3657.
-Memory consumption went from 129.6 MB to 129.1 MB.
-Total: 8.090900 ms (FindLiveObjects: 0.841700 ms CreateObjectMapping: 0.404800 ms MarkObjects: 6.133800 ms  DeleteObjects: 0.706900 ms)
+Unloading 3491 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (9.4 MB). Loaded Objects now: 4011.
+Memory consumption went from 160.9 MB to 151.4 MB.
+Total: 4.681400 ms (FindLiveObjects: 0.310100 ms CreateObjectMapping: 0.126600 ms MarkObjects: 2.906500 ms  DeleteObjects: 1.336200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -272,53 +251,420 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.670 seconds
-Refreshing native plugins compatible for Editor in 5.74 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.452 seconds
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.342 seconds
-Domain Reload Profiling: 3011ms
-	BeginReloadAssembly (177ms)
+- Finished resetting the current domain, in  1.012 seconds
+Domain Reload Profiling: 1463ms
+	BeginReloadAssembly (160ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (386ms)
-		LoadAssemblies (429ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (261ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (57ms)
-			TypeCache.Refresh (33ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (2344ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1013ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1058ms)
+		SetupLoadedEditorAssemblies (432ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
+			InitializePlatformSupportModulesInManaged (35ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (132ms)
-			ProcessInitializeOnLoadAttributes (819ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
-Refreshing native plugins compatible for Editor in 9.84 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3660.
-Memory consumption went from 131.3 MB to 131.3 MB.
-Total: 11.720400 ms (FindLiveObjects: 0.793600 ms CreateObjectMapping: 0.793700 ms MarkObjects: 10.030100 ms  DeleteObjects: 0.099300 ms)
+Unloading 3491 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (9.4 MB). Loaded Objects now: 4014.
+Memory consumption went from 162.8 MB to 153.4 MB.
+Total: 5.024700 ms (FindLiveObjects: 0.420600 ms CreateObjectMapping: 0.147600 ms MarkObjects: 3.430900 ms  DeleteObjects: 1.024000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 566844.354502 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine
+  artifactKey: Guid(a4b20352d1bc61142b8b1d1a4edf0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine using Guid(a4b20352d1bc61142b8b1d1a4edf0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a860a31d64484410a4a1a46514b8382') in 0.002774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.971649 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Core
+  artifactKey: Guid(ca3636caf1e5f6a44ab85c4b0165a84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Core using Guid(ca3636caf1e5f6a44ab85c4b0165a84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e880b8e6710bac9f8a37a6fc981e4a1c') in 0.000984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.043228 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Core/Pipelines
+  artifactKey: Guid(556f6c9a3a0079447a84f31e00c4c556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Core/Pipelines using Guid(556f6c9a3a0079447a84f31e00c4c556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5943ea2c7bac36454429304da29025') in 0.000602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.150164 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo
+  artifactKey: Guid(735f92852794d154580c6d95c5b64bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo using Guid(735f92852794d154580c6d95c5b64bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4da756976eb00256c8af95d9eced6e') in 0.000507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.938881 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures
+  artifactKey: Guid(8376dcc25cc30af40a473e8e1f10caf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures using Guid(8376dcc25cc30af40a473e8e1f10caf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e45f0139f6e2fcee28196c279a546f') in 0.000752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.736643 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Vegetation/GrassGCATA_Albedo.png
+  artifactKey: Guid(1aa2dbc69edd9cb47ac394d7b393b49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Vegetation/GrassGCATA_Albedo.png using Guid(1aa2dbc69edd9cb47ac394d7b393b49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2463fe7df78ddbd0683946d475a0d97') in 0.101834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Vegetation/ShrubBarkGCATA_MAG.png
+  artifactKey: Guid(71cad2c9341abe04bb2f2283eca5f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Vegetation/ShrubBarkGCATA_MAG.png using Guid(71cad2c9341abe04bb2f2283eca5f36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31470f8694493c8de5972e9c910b0276') in 0.062195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Vegetation/GrassGCATA_Specular.png
+  artifactKey: Guid(900a9db77abd75a4c91e7b489472f25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Vegetation/GrassGCATA_Specular.png using Guid(900a9db77abd75a4c91e7b489472f25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea674884303b098d98c735fb46c1e8a4') in 0.047836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Vegetation/GrassGCATA_Normal.png
+  artifactKey: Guid(b445905ac87230346b258e41a8c22d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Vegetation/GrassGCATA_Normal.png using Guid(b445905ac87230346b258e41a8c22d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9df65ea192cee4668601e5309c15730') in 0.073293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Vegetation/ShrubBarkGCATA_Albedo.png
+  artifactKey: Guid(961f51f16637c464b8d9c9cf6502071c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Vegetation/ShrubBarkGCATA_Albedo.png using Guid(961f51f16637c464b8d9c9cf6502071c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfda9ea7a15d8715532897eaad9edde') in 0.047979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Vegetation/ShrubsGenericGCATA_Albedo M.png
+  artifactKey: Guid(806e380996355d647a6242fe9813dd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Vegetation/ShrubsGenericGCATA_Albedo M.png using Guid(806e380996355d647a6242fe9813dd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4420abc012015b9eb282e28b74a5ccad') in 0.053931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.640583 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/BaseDirtGCATA_Albedo.tif
+  artifactKey: Guid(07d22407eb629f14d80093e771144053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/BaseDirtGCATA_Albedo.tif using Guid(07d22407eb629f14d80093e771144053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3bc1ba85a5f4456a5a517fe4ef76bd') in 0.023410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/BaseDirtGCATA_Height.png
+  artifactKey: Guid(0f1f3220297ff904abc0134c331e1c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/BaseDirtGCATA_Height.png using Guid(0f1f3220297ff904abc0134c331e1c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0db471502707646710ae24881eaeaf') in 0.034162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/GrassGCATA_Albedo.tif
+  artifactKey: Guid(f342feadc66e9a04b9941beb835befdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/GrassGCATA_Albedo.tif using Guid(f342feadc66e9a04b9941beb835befdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cfa0cead81bce5c53048c23d2bd9cc') in 0.031740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/DirtRickGCATA_Normal.png
+  artifactKey: Guid(30c1099de0b2c1e4d9a97d33df593740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/DirtRickGCATA_Normal.png using Guid(30c1099de0b2c1e4d9a97d33df593740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0394726124502094fc1fd6dbf80dbb') in 0.040792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/BaseRockGCATA_B_Diffuse.png
+  artifactKey: Guid(5dfa642cff8c269449a4e670e296911e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/BaseRockGCATA_B_Diffuse.png using Guid(5dfa642cff8c269449a4e670e296911e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ef8932d7e2ded7da101e260251754d') in 0.032464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/BaseRockGCATA_B_Normal.png
+  artifactKey: Guid(887b0b3a60ab5204787b1640fd84e6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/BaseRockGCATA_B_Normal.png using Guid(887b0b3a60ab5204787b1640fd84e6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87aeec4297b557d14ac1874cfea0400d') in 0.040809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/GrassGCATA_Height.png
+  artifactKey: Guid(38caee8b57df8ed4aaa6e109d6bdadd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/GrassGCATA_Height.png using Guid(38caee8b57df8ed4aaa6e109d6bdadd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99760d5afd3a9b2180e8005a00eaeec') in 0.028550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/DirtRickGCATA_MAG.png
+  artifactKey: Guid(2c2c6309f1194904ebc44ccd8b5e65ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/DirtRickGCATA_MAG.png using Guid(2c2c6309f1194904ebc44ccd8b5e65ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70f26c19206e4d3b9c4f2662bfd86d6') in 0.039688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/BaseDirtGCATA_Normal.png
+  artifactKey: Guid(b54c7db0f5e70294eb3866d5c7ad63b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/BaseDirtGCATA_Normal.png using Guid(b54c7db0f5e70294eb3866d5c7ad63b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f965ec3059f30f8d0fe3822f55294fff') in 0.036952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/GrassGCATA_Normal.png
+  artifactKey: Guid(2b9b807f14b1a1740954e8305a3bcce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Textures/Textures_Tiles Nature/GrassGCATA_Normal.png using Guid(2b9b807f14b1a1740954e8305a3bcce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8443408b28f9193e5d8723bf490f2e60') in 0.038878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.842074 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Prefabs
+  artifactKey: Guid(7e6fdaa9465887344b236735b5c8f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Prefabs using Guid(7e6fdaa9465887344b236735b5c8f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea623095bca1a54a00933db09cf9b9c') in 0.000765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.865867 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Prefabs/Prefabs_Player/Player.prefab
+  artifactKey: Guid(d592976252b32694fb4dc81ce5dfe56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Prefabs/Prefabs_Player/Player.prefab using Guid(d592976252b32694fb4dc81ce5dfe56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a117e45f2757d0a3626344a40bf8b74') in 0.012934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 6.740178 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Meshes
+  artifactKey: Guid(466c0133eba8ced4cb67149de0855308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Meshes using Guid(466c0133eba8ced4cb67149de0855308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2147c6ef614e68020aec7bc5ad1da4') in 0.000610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.756373 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Meshes/Meshes_Vegetation
+  artifactKey: Guid(e55faf78bdcae404196d85771f6bf279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Meshes/Meshes_Vegetation using Guid(e55faf78bdcae404196d85771f6bf279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5688196a84f23a4b7e992ab5b69a0ebe') in 0.000597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.706057 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Meshes/Meshes_Vegetation/MV_Trees and Bushes/ShrubBush_B.fbx
+  artifactKey: Guid(d4f4718661bfaa145bf710173daa2881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Meshes/Meshes_Vegetation/MV_Trees and Bushes/ShrubBush_B.fbx using Guid(d4f4718661bfaa145bf710173daa2881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fdcda0ea2dca5366af83d4148818e6') in 3.451819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Meshes/Meshes Helpers/Dirctions.fbx
+  artifactKey: Guid(562ae7a539048724abe4ac7d88838845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Meshes/Meshes Helpers/Dirctions.fbx using Guid(562ae7a539048724abe4ac7d88838845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f866c02ec7bd05f2848d63b6e206f5') in 0.373441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Meshes/Meshes Helpers/Unit Scale.fbx
+  artifactKey: Guid(90f26894c79e6f54fb779ad4300249ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Meshes/Meshes Helpers/Unit Scale.fbx using Guid(90f26894c79e6f54fb779ad4300249ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98e689be0451f84df83c2ebe96aa5eb') in 0.041402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Meshes/Meshes_Vegetation/MV_Trees and Bushes/ShrubTree_C.fbx
+  artifactKey: Guid(d592e17e45bd94f4a8ea8002f64f087c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Meshes/Meshes_Vegetation/MV_Trees and Bushes/ShrubTree_C.fbx using Guid(d592e17e45bd94f4a8ea8002f64f087c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e044ec2cd3f3ae77b1fb1a171428b23') in 0.819656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 23.892715 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Scenes Light_Settings
+  artifactKey: Guid(014c86213c291e840a7606d8f1ab95a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Scenes Light_Settings using Guid(014c86213c291e840a7606d8f1ab95a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd702658cd5759788bc561063431a40bb') in 0.001299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.956992 seconds.
+  path: Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Scripts
+  artifactKey: Guid(e9f117c8c9ddc2047bdfd95a620cfac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Scripts using Guid(e9f117c8c9ddc2047bdfd95a620cfac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348c3438e147d322a49d10e85ba99435') in 0.000723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002706D4E4A20 doesn't match image C:\Users\DOAA\Documents\GitHub\gameTest\test0\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002709BB655C0 doesn't match image C:\Users\DOAA\Documents\GitHub\gameTest\test0\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002709B783040 doesn't match image C:\Users\DOAA\Documents\GitHub\gameTest\test0\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002709BDC4A20 doesn't match image C:\Users\DOAA\Documents\GitHub\gameTest\test0\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002711FAEA140 doesn't match image C:\Users\DOAA\Documents\GitHub\gameTest\test0\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in 30.738 seconds
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 17.570 seconds
+Domain Reload Profiling: 48306ms
+	BeginReloadAssembly (294ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (30320ms)
+		LoadAssemblies (30144ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (310ms)
+			TypeCache.Refresh (246ms)
+				TypeCache.ScanAssembly (223ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (17571ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1074ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (728ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Script is not up to date after domain reload: guid(8566902b50d5bfb4fb7f8b89f9cdbe8b) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/DynamicShadowSettings.cs") state(2)
+Script is not up to date after domain reload: guid(85bf3be603548374ca46f521a3aa7fda) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs") state(2)
+Script is not up to date after domain reload: guid(c1bbfafbde15c854681023b9e01e12dd) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/LerpControlledBob.cs") state(2)
+Script is not up to date after domain reload: guid(b27507c5d0efbbd47ac8c1de9a1a0a35) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/PlatformSpecificContent.cs") state(2)
+Script is not up to date after domain reload: guid(0f57aeb1b8dce3342bea5c28ac17db24) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs") state(2)
+Script is not up to date after domain reload: guid(3a7cedf246fca744f90cbdc9dbe41166) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/TimedObjectActivator.cs") state(2)
+Script is not up to date after domain reload: guid(d1e2e7a54dcc8694ab1eca46d072f264) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/CameraRefocus.cs") state(2)
+Script is not up to date after domain reload: guid(1caf40fc8bebb6b43b2550c05ca791d6) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs") state(2)
+Script is not up to date after domain reload: guid(00c3c865782347f41b6358d9fba14b48) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs") state(2)
+Script is not up to date after domain reload: guid(5c2d84226fbbaf94e9c1451f1c39b06a) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs") state(2)
+Script is not up to date after domain reload: guid(492f54f4accf00440828ffcb9e4fcc19) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/CurveControlledBob.cs") state(2)
+Script is not up to date after domain reload: guid(37e60a97f2c87ae41b6cdc1055d78cb9) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Characters/Scripts/MouseLook.cs") state(2)
+Script is not up to date after domain reload: guid(039587c051912eb4ead9e58344c5f3ce) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs") state(2)
+Script is not up to date after domain reload: guid(a1347817507220a4384f3ff6f7c24546) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/AutoMoveAndRotate.cs") state(2)
+Script is not up to date after domain reload: guid(9703d53e47195aa4190acd11369ccd1b) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs") state(2)
+Script is not up to date after domain reload: guid(22bbf57ec543cee42a5aa0ec2dd9e457) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/FPSCounter.cs") state(2)
+Script is not up to date after domain reload: guid(69b69a5b0e0a85b4aa97a7edc40c37d1) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/SimpleActivatorMenu.cs") state(2)
+Script is not up to date after domain reload: guid(05ec5cf00ca181d45a42ba1870e148c3) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Characters/Scripts/FirstPersonController.cs") state(2)
+Script is not up to date after domain reload: guid(cadd54e4832aeef4b9359f44cbe335cd) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/SimpleMouseRotator.cs") state(2)
+Script is not up to date after domain reload: guid(f76806479d916a64aa03f8e3eba7912f) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/SmoothFollow.cs") state(2)
+Script is not up to date after domain reload: guid(70852dc981465ea48bb527b9e33a87fd) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/WaypointCircuit.cs") state(2)
+Script is not up to date after domain reload: guid(37fac21d1f093d344816942d1abce94e) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/TimedObjectDestructor.cs") state(2)
+Script is not up to date after domain reload: guid(c5cb22d331ef7d64796f917c6a455a32) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/WaypointProgressTracker.cs") state(2)
+Script is not up to date after domain reload: guid(58650e15a2607e44daa0f150e0061d89) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/DragRigidbody.cs") state(2)
+Script is not up to date after domain reload: guid(9961032f4f02c4f41997c3ea399d2f22) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs") state(2)
+Script is not up to date after domain reload: guid(246cc59c7a84ea44f87f6b70acfe30c5) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/FollowTarget.cs") state(2)
+Script is not up to date after domain reload: guid(0ead7e0a9abbc124cb59ba661251e4f7) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Scripts/SwitchMoveCorridor1.cs") state(2)
+Script is not up to date after domain reload: guid(9b886447cba80f74e820adb3c9e70c76) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/ForcedReset.cs") state(2)
+Script is not up to date after domain reload: guid(29014cd42b6d273408e0ceefd336c0b3) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/ParticleSystemDestroyer.cs") state(2)
+Script is not up to date after domain reload: guid(643c971818f68d3439e84b5d8bdafe07) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/ObjectResetter.cs") state(2)
+Script is not up to date after domain reload: guid(9c4978ff6447f9040b84acc89b0bbdc8) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/AutoMobileShaderSwitch.cs") state(2)
+Script is not up to date after domain reload: guid(971f44ba24a74294294daed00507d80e) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/AlphaButtonClickMask.cs") state(2)
+Script is not up to date after domain reload: guid(6045a93fb05b9c74884821030da2c46c) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/FOVKick.cs") state(2)
+Script is not up to date after domain reload: guid(6ac1ce5a5adfd9f46adbf5b6f752a47c) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs") state(2)
+Script is not up to date after domain reload: guid(7d3269566d48b8447bb48d2259e28f8b) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs") state(2)
+Script is not up to date after domain reload: guid(9c0578910bbe00d43919a92c7b9893fe) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/EventSystemChecker.cs") state(2)
+Script is not up to date after domain reload: guid(c8634e062924929664361c08745211fb) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/ActivateTrigger.cs") state(2)
+Script is not up to date after domain reload: guid(85de4ac60044cd84889bb6e363a6cfa3) path("Assets/Tomerinio/LEDLightBlocks/Contents/Scripts/LEDNode.cs") state(2)
+Script is not up to date after domain reload: guid(71398ce7fbc3a5b4fa50b50bd54317a7) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs") state(2)
+Script is not up to date after domain reload: guid(9fce45b8448389843a0594b6c9de8e7e) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Scripts/SwitchMoveCorridor2.cs") state(2)
+Script is not up to date after domain reload: guid(9ab98b66288df7b4fa182075f2f12bd6) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 7.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4708 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (7.2 MB). Loaded Objects now: 5202.
+Memory consumption went from 202.5 MB to 195.3 MB.
+Total: 14.637800 ms (FindLiveObjects: 0.945000 ms CreateObjectMapping: 0.713900 ms MarkObjects: 9.369800 ms  DeleteObjects: 3.606500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -336,54 +682,465 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
+Script is not up to date after domain reload: guid(8566902b50d5bfb4fb7f8b89f9cdbe8b) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/DynamicShadowSettings.cs") state(2)
+Script is not up to date after domain reload: guid(85bf3be603548374ca46f521a3aa7fda) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs") state(2)
+Script is not up to date after domain reload: guid(c1bbfafbde15c854681023b9e01e12dd) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/LerpControlledBob.cs") state(2)
+Script is not up to date after domain reload: guid(b27507c5d0efbbd47ac8c1de9a1a0a35) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/PlatformSpecificContent.cs") state(2)
+Script is not up to date after domain reload: guid(0f57aeb1b8dce3342bea5c28ac17db24) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs") state(2)
+Script is not up to date after domain reload: guid(3a7cedf246fca744f90cbdc9dbe41166) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/TimedObjectActivator.cs") state(2)
+Script is not up to date after domain reload: guid(d1e2e7a54dcc8694ab1eca46d072f264) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/CameraRefocus.cs") state(2)
+Script is not up to date after domain reload: guid(1caf40fc8bebb6b43b2550c05ca791d6) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs") state(2)
+Script is not up to date after domain reload: guid(00c3c865782347f41b6358d9fba14b48) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs") state(2)
+Script is not up to date after domain reload: guid(5c2d84226fbbaf94e9c1451f1c39b06a) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs") state(2)
+Script is not up to date after domain reload: guid(492f54f4accf00440828ffcb9e4fcc19) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/CurveControlledBob.cs") state(2)
+Script is not up to date after domain reload: guid(37e60a97f2c87ae41b6cdc1055d78cb9) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Characters/Scripts/MouseLook.cs") state(2)
+Script is not up to date after domain reload: guid(039587c051912eb4ead9e58344c5f3ce) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs") state(2)
+Script is not up to date after domain reload: guid(a1347817507220a4384f3ff6f7c24546) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/AutoMoveAndRotate.cs") state(2)
+Script is not up to date after domain reload: guid(9703d53e47195aa4190acd11369ccd1b) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs") state(2)
+Script is not up to date after domain reload: guid(22bbf57ec543cee42a5aa0ec2dd9e457) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/FPSCounter.cs") state(2)
+Script is not up to date after domain reload: guid(69b69a5b0e0a85b4aa97a7edc40c37d1) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/SimpleActivatorMenu.cs") state(2)
+Script is not up to date after domain reload: guid(05ec5cf00ca181d45a42ba1870e148c3) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Characters/Scripts/FirstPersonController.cs") state(2)
+Script is not up to date after domain reload: guid(cadd54e4832aeef4b9359f44cbe335cd) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/SimpleMouseRotator.cs") state(2)
+Script is not up to date after domain reload: guid(f76806479d916a64aa03f8e3eba7912f) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/SmoothFollow.cs") state(2)
+Script is not up to date after domain reload: guid(70852dc981465ea48bb527b9e33a87fd) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/WaypointCircuit.cs") state(2)
+Script is not up to date after domain reload: guid(37fac21d1f093d344816942d1abce94e) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/TimedObjectDestructor.cs") state(2)
+Script is not up to date after domain reload: guid(c5cb22d331ef7d64796f917c6a455a32) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/WaypointProgressTracker.cs") state(2)
+Script is not up to date after domain reload: guid(58650e15a2607e44daa0f150e0061d89) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/DragRigidbody.cs") state(2)
+Script is not up to date after domain reload: guid(9961032f4f02c4f41997c3ea399d2f22) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs") state(2)
+Script is not up to date after domain reload: guid(246cc59c7a84ea44f87f6b70acfe30c5) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/FollowTarget.cs") state(2)
+Script is not up to date after domain reload: guid(0ead7e0a9abbc124cb59ba661251e4f7) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Scripts/SwitchMoveCorridor1.cs") state(2)
+Script is not up to date after domain reload: guid(9b886447cba80f74e820adb3c9e70c76) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/ForcedReset.cs") state(2)
+Script is not up to date after domain reload: guid(29014cd42b6d273408e0ceefd336c0b3) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/ParticleSystemDestroyer.cs") state(2)
+Script is not up to date after domain reload: guid(643c971818f68d3439e84b5d8bdafe07) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/ObjectResetter.cs") state(2)
+Script is not up to date after domain reload: guid(9c4978ff6447f9040b84acc89b0bbdc8) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/AutoMobileShaderSwitch.cs") state(2)
+Script is not up to date after domain reload: guid(971f44ba24a74294294daed00507d80e) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/AlphaButtonClickMask.cs") state(2)
+Script is not up to date after domain reload: guid(6045a93fb05b9c74884821030da2c46c) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/FOVKick.cs") state(2)
+Script is not up to date after domain reload: guid(6ac1ce5a5adfd9f46adbf5b6f752a47c) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs") state(2)
+Script is not up to date after domain reload: guid(7d3269566d48b8447bb48d2259e28f8b) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs") state(2)
+Script is not up to date after domain reload: guid(9c0578910bbe00d43919a92c7b9893fe) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/EventSystemChecker.cs") state(2)
+Script is not up to date after domain reload: guid(c8634e062924929664361c08745211fb) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/ActivateTrigger.cs") state(2)
+Script is not up to date after domain reload: guid(85de4ac60044cd84889bb6e363a6cfa3) path("Assets/Tomerinio/LEDLightBlocks/Contents/Scripts/LEDNode.cs") state(2)
+Script is not up to date after domain reload: guid(71398ce7fbc3a5b4fa50b50bd54317a7) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs") state(2)
+Script is not up to date after domain reload: guid(9fce45b8448389843a0594b6c9de8e7e) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Scripts/SwitchMoveCorridor2.cs") state(2)
+Script is not up to date after domain reload: guid(9ab98b66288df7b4fa182075f2f12bd6) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs") state(2)
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.857 seconds
-Refreshing native plugins compatible for Editor in 8.90 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.292 seconds
+Refreshing native plugins compatible for Editor in 8.13 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.357 seconds
+Domain Reload Profiling: 3642ms
+	BeginReloadAssembly (376ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (735ms)
+		LoadAssemblies (620ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (298ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (202ms)
+			ScanForSourceGeneratedMonoScriptInfo (50ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2358ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1145ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (773ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Script is not up to date after domain reload: guid(8566902b50d5bfb4fb7f8b89f9cdbe8b) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/DynamicShadowSettings.cs") state(2)
+Script is not up to date after domain reload: guid(85bf3be603548374ca46f521a3aa7fda) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs") state(2)
+Script is not up to date after domain reload: guid(c1bbfafbde15c854681023b9e01e12dd) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/LerpControlledBob.cs") state(2)
+Script is not up to date after domain reload: guid(b27507c5d0efbbd47ac8c1de9a1a0a35) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/PlatformSpecificContent.cs") state(2)
+Script is not up to date after domain reload: guid(0f57aeb1b8dce3342bea5c28ac17db24) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs") state(2)
+Script is not up to date after domain reload: guid(3a7cedf246fca744f90cbdc9dbe41166) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/TimedObjectActivator.cs") state(2)
+Script is not up to date after domain reload: guid(d1e2e7a54dcc8694ab1eca46d072f264) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/CameraRefocus.cs") state(2)
+Script is not up to date after domain reload: guid(1caf40fc8bebb6b43b2550c05ca791d6) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs") state(2)
+Script is not up to date after domain reload: guid(00c3c865782347f41b6358d9fba14b48) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs") state(2)
+Script is not up to date after domain reload: guid(5c2d84226fbbaf94e9c1451f1c39b06a) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs") state(2)
+Script is not up to date after domain reload: guid(492f54f4accf00440828ffcb9e4fcc19) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/CurveControlledBob.cs") state(2)
+Script is not up to date after domain reload: guid(37e60a97f2c87ae41b6cdc1055d78cb9) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Characters/Scripts/MouseLook.cs") state(2)
+Script is not up to date after domain reload: guid(039587c051912eb4ead9e58344c5f3ce) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs") state(2)
+Script is not up to date after domain reload: guid(a1347817507220a4384f3ff6f7c24546) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/AutoMoveAndRotate.cs") state(2)
+Script is not up to date after domain reload: guid(9703d53e47195aa4190acd11369ccd1b) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs") state(2)
+Script is not up to date after domain reload: guid(22bbf57ec543cee42a5aa0ec2dd9e457) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/FPSCounter.cs") state(2)
+Script is not up to date after domain reload: guid(69b69a5b0e0a85b4aa97a7edc40c37d1) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/SimpleActivatorMenu.cs") state(2)
+Script is not up to date after domain reload: guid(05ec5cf00ca181d45a42ba1870e148c3) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Characters/Scripts/FirstPersonController.cs") state(2)
+Script is not up to date after domain reload: guid(cadd54e4832aeef4b9359f44cbe335cd) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/SimpleMouseRotator.cs") state(2)
+Script is not up to date after domain reload: guid(f76806479d916a64aa03f8e3eba7912f) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/SmoothFollow.cs") state(2)
+Script is not up to date after domain reload: guid(70852dc981465ea48bb527b9e33a87fd) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/WaypointCircuit.cs") state(2)
+Script is not up to date after domain reload: guid(37fac21d1f093d344816942d1abce94e) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/TimedObjectDestructor.cs") state(2)
+Script is not up to date after domain reload: guid(c5cb22d331ef7d64796f917c6a455a32) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/WaypointProgressTracker.cs") state(2)
+Script is not up to date after domain reload: guid(58650e15a2607e44daa0f150e0061d89) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/DragRigidbody.cs") state(2)
+Script is not up to date after domain reload: guid(9961032f4f02c4f41997c3ea399d2f22) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs") state(2)
+Script is not up to date after domain reload: guid(246cc59c7a84ea44f87f6b70acfe30c5) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/FollowTarget.cs") state(2)
+Script is not up to date after domain reload: guid(0ead7e0a9abbc124cb59ba661251e4f7) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Scripts/SwitchMoveCorridor1.cs") state(2)
+Script is not up to date after domain reload: guid(9b886447cba80f74e820adb3c9e70c76) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/ForcedReset.cs") state(2)
+Script is not up to date after domain reload: guid(29014cd42b6d273408e0ceefd336c0b3) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/ParticleSystemDestroyer.cs") state(2)
+Script is not up to date after domain reload: guid(643c971818f68d3439e84b5d8bdafe07) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/ObjectResetter.cs") state(2)
+Script is not up to date after domain reload: guid(9c4978ff6447f9040b84acc89b0bbdc8) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/AutoMobileShaderSwitch.cs") state(2)
+Script is not up to date after domain reload: guid(971f44ba24a74294294daed00507d80e) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/AlphaButtonClickMask.cs") state(2)
+Script is not up to date after domain reload: guid(6045a93fb05b9c74884821030da2c46c) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/FOVKick.cs") state(2)
+Script is not up to date after domain reload: guid(6ac1ce5a5adfd9f46adbf5b6f752a47c) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs") state(2)
+Script is not up to date after domain reload: guid(7d3269566d48b8447bb48d2259e28f8b) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs") state(2)
+Script is not up to date after domain reload: guid(9c0578910bbe00d43919a92c7b9893fe) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/EventSystemChecker.cs") state(2)
+Script is not up to date after domain reload: guid(c8634e062924929664361c08745211fb) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/Utility/ActivateTrigger.cs") state(2)
+Script is not up to date after domain reload: guid(85de4ac60044cd84889bb6e363a6cfa3) path("Assets/Tomerinio/LEDLightBlocks/Contents/Scripts/LEDNode.cs") state(2)
+Script is not up to date after domain reload: guid(71398ce7fbc3a5b4fa50b50bd54317a7) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs") state(2)
+Script is not up to date after domain reload: guid(9fce45b8448389843a0594b6c9de8e7e) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Scripts/SwitchMoveCorridor2.cs") state(2)
+Script is not up to date after domain reload: guid(9ab98b66288df7b4fa182075f2f12bd6) path("Assets/Tomerinio/LEDLightBlocks/Example Scene/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs") state(2)
+Refreshing native plugins compatible for Editor in 5.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4706 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (7.3 MB). Loaded Objects now: 5205.
+Memory consumption went from 204.4 MB to 197.1 MB.
+Total: 13.914800 ms (FindLiveObjects: 0.730100 ms CreateObjectMapping: 0.481200 ms MarkObjects: 7.273000 ms  DeleteObjects: 5.427800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3d2687377350152dbf6fe1506d44ce14 -> 63b6d88713f22586ccbbc158db8859cd
+  custom:scripting/monoscript/fileName/MobileInput.cs:  -> dfa415439f330b7749adb2ef7567c3e4
+  custom:scripting/monoscript/fileName/InputAxisScrollbar.cs:  -> ce23cb16d4e46181bfcdc67e0abad940
+  custom:scripting/monoscript/fileName/ActivateTrigger.cs:  -> c94789aa9e8004cad1e54b531012d83a
+  custom:scripting/monoscript/fileName/WaypointCircuit.cs:  -> 54e952fb6b763eca02bad0728655deb7
+  custom:scripting/monoscript/fileName/ParticleSystemDestroyer.cs:  -> e9db870dc4c33b83d7965fdc6fe482f5
+  custom:scripting/monoscript/fileName/CrossPlatformInputManager.cs:  -> a6a27da3c2613aab4b889711813fe29f
+  custom:scripting/monoscript/fileName/DragRigidbody.cs:  -> af6487145851a9f92f2704a8e0948d6e
+  custom:scripting/monoscript/fileName/SwitchMoveCorridor1.cs:  -> e18a4ab88829bacbb09bf33c1c22da9c
+  custom:scripting/monoscript/fileName/LEDNode.cs:  -> 0cbb8788d81d0adbef7edd514d2a97df
+  custom:scripting/monoscript/fileName/SwitchMoveCorridor2.cs:  -> 2721f60a421ec9f8008c017da91b43e5
+  custom:scripting/monoscript/fileName/TouchPad.cs:  -> 71af049078ebd826d8919ba90a4412d3
+  custom:scripting/monoscript/fileName/TiltInput.cs:  -> 298cab2ca5ef1ae659d7256d2dbeb1ed
+  custom:scripting/monoscript/fileName/SmoothFollow.cs:  -> a07fd7df12bc7fba739834867140f167
+  custom:scripting/monoscript/fileName/DynamicShadowSettings.cs:  -> 325596f0baf85da0d965fea14b11bb8b
+  custom:scripting/monoscript/fileName/CurveControlledBob.cs:  -> 90e86216bd5f53d9fe3087ae7bf389f1
+  custom:scripting/monoscript/fileName/AutoMobileShaderSwitch.cs:  -> e55bd94d791efdfd8def29f52dc8447b
+  custom:scripting/monoscript/fileName/AlphaButtonClickMask.cs:  -> 0e8b09d4b0d299b77424ad90e670a9d2
+  custom:scripting/monoscript/fileName/StandaloneInput.cs:  -> 8cfda68f78df3b7dc3040fdb29fc2cd1
+  custom:scripting/monoscript/fileName/FOVKick.cs:  -> c76896347c620802192507d0a92d05a3
+  custom:scripting/monoscript/fileName/TimedObjectActivator.cs:  -> 25495e754d3d277d8e763837b64bf2ba
+  custom:scripting/monoscript/fileName/WaypointProgressTracker.cs:  -> fb6262ee8f74f6dc3758b58e5ee18955
+  custom:scripting/monoscript/fileName/SimpleMouseRotator.cs:  -> 9ea47a4777a3a00316a90faf1a6f313d
+  custom:scripting/monoscript/fileName/ParticleSystemMultiplier.cs:  -> 8c5eeca5294173db54ffca6ac53ee34e
+  custom:scripting/monoscript/fileName/CameraRefocus.cs:  -> 2faffd18ce20d29396a11c7a26d00f0b
+  custom:scripting/monoscript/fileName/TimedObjectDestructor.cs:  -> bce1a4bbcc9460c16af8171b93c92130
+  custom:scripting/monoscript/fileName/MobileControlRig.cs:  -> 3524fff44c8126dee0548f9b6ab19d53
+  custom:scripting/monoscript/fileName/ForcedReset.cs:  -> 5e1472355f934ab888fa0985eb71dfb5
+  custom:scripting/monoscript/fileName/EventSystemChecker.cs:  -> 7bccd0826881aa97be03516a055e060b
+  custom:scripting/monoscript/fileName/VirtualInput.cs:  -> e290279061a851c625fb61c863776a94
+  custom:scripting/monoscript/fileName/MouseLook.cs:  -> 1413bf4c672f5aacfd2b457b6378eea6
+  custom:scripting/monoscript/fileName/SimpleActivatorMenu.cs:  -> 6dc7b15cc079b5666ea19a4bb40b684f
+  custom:scripting/monoscript/fileName/FPSCounter.cs:  -> 18dc6752cae0b5546ca4b2dc0c7741f5
+  custom:scripting/monoscript/fileName/LerpControlledBob.cs:  -> e3f8ea665fb8f4533c1004d43455b6e7
+  custom:scripting/monoscript/fileName/ButtonHandler.cs:  -> e27d3f4c7505c394dad450c78dd6faf1
+  custom:scripting/monoscript/fileName/AxisTouchButton.cs:  -> 31be56f36d53422fd33aa4f9a14e630a
+  custom:scripting/monoscript/fileName/FollowTarget.cs:  -> 93be4c02dc2bee8af48e06a6c7c2e042
+  custom:scripting/monoscript/fileName/FirstPersonController.cs:  -> 4fa5841f7a7dfdfcf291c3718c4ae3a2
+  custom:scripting/monoscript/fileName/Joystick.cs:  -> b54db918c885c01940a25acda1acd280
+  custom:scripting/monoscript/fileName/PlatformSpecificContent.cs:  -> 5abb8e8ef7a06ce1842fe9ff26eac2dd
+  custom:scripting/monoscript/fileName/AutoMoveAndRotate.cs:  -> ca0e96f72f32239308122375a052b980
+  custom:scripting/monoscript/fileName/ObjectResetter.cs:  -> 037abf2de53ab0026436c32f7a941658
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.842 seconds
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.817 seconds
+Domain Reload Profiling: 2657ms
+	BeginReloadAssembly (306ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (396ms)
+		LoadAssemblies (535ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1818ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (765ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (500ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (42ms)
+Refreshing native plugins compatible for Editor in 5.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4747 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (7.3 MB). Loaded Objects now: 5249.
+Memory consumption went from 207.2 MB to 200.0 MB.
+Total: 9.953200 ms (FindLiveObjects: 0.904700 ms CreateObjectMapping: 1.336800 ms MarkObjects: 4.547100 ms  DeleteObjects: 3.162400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 257.167386 seconds.
+  path: Assets/Tomerinio
+  artifactKey: Guid(d36240b5d419c8843a8925357646d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio using Guid(d36240b5d419c8843a8925357646d661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fd9e90e137799a63deb951241759b9') in 0.002405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.952927 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks
+  artifactKey: Guid(09c473d3d12a26544a1268c32d37f259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks using Guid(09c473d3d12a26544a1268c32d37f259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e525ec9820703b865c402db9bec04f') in 0.001006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.199340 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene
+  artifactKey: Guid(c23accb99afbd2146af5a6f43d7373ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene using Guid(c23accb99afbd2146af5a6f43d7373ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db029230e4de72c2f07acd56dc9d709b') in 0.000910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.035236 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents
+  artifactKey: Guid(4777e4211dc148f4bbd119d5cb19e00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents using Guid(4777e4211dc148f4bbd119d5cb19e00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67306fef0d553e7f62b42b32b41314ee') in 0.000585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.914130 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Arches.fbx
+  artifactKey: Guid(c5a0cbaff03e01547841e9d71417ea60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Arches.fbx using Guid(c5a0cbaff03e01547841e9d71417ea60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c0dfd32d397da83f7065b0efda4978') in 0.448647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Object Colliders.fbx
+  artifactKey: Guid(628e5212ccbe5044ba8b70740d37394e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Object Colliders.fbx using Guid(628e5212ccbe5044ba8b70740d37394e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d34a1c7a89451648a57477113e4b3a4') in 0.479513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 331
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Walls.fbx
+  artifactKey: Guid(6c823a569ab4348479597ed4693bc618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Walls.fbx using Guid(6c823a569ab4348479597ed4693bc618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a811bddecdeaa267085b2ad00eb61a89') in 0.238472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 105
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Platform_Skull_03.FBX
+  artifactKey: Guid(20e5579945075c34090a39916ca94897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Platform_Skull_03.FBX using Guid(20e5579945075c34090a39916ca94897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15c62292d7f98bdf3987df4d6cfa93d') in 0.060810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Mesh_SkullCollider.FBX
+  artifactKey: Guid(5f7f6233a74cc4e4bb1214c252676688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Mesh_SkullCollider.FBX using Guid(5f7f6233a74cc4e4bb1214c252676688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a7f2cabe713a0874e879d78336eefc') in 0.040610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.781419 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Materials
+  artifactKey: Guid(bd47fc7132669c948a0eab3adf1419a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Example Scene/Meshes/Materials using Guid(bd47fc7132669c948a0eab3adf1419a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d2e7df45adcb80b55f40dc0c49a22f') in 0.000743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 382.405600 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Materials/M_LEDBlue.mat
+  artifactKey: Guid(d2f6c6d261ec30d4788e33a9951a2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Materials/M_LEDBlue.mat using Guid(d2f6c6d261ec30d4788e33a9951a2ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746de2f6e0b0629e9a25b854463aa2db') in 0.078700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.540062 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Post-Processing/Bloom.asset
+  artifactKey: Guid(44ff1565856b8ef4594e23b8e132b715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Post-Processing/Bloom.asset using Guid(44ff1565856b8ef4594e23b8e132b715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb277421e7d27d2451c33c871548724') in 0.021314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Post-Processing
+  artifactKey: Guid(b9c2dd4698aee52438a3938c10999895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Post-Processing using Guid(b9c2dd4698aee52438a3938c10999895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fa0bc835f6c898bca70552ff8b20eb') in 0.001169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.815355 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_Node.prefab
+  artifactKey: Guid(a8fa3d785a0778c45ad2984740895d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_Node.prefab using Guid(a8fa3d785a0778c45ad2984740895d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95c312523fbadd28664f7ae3b4abf12') in 0.042092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs
+  artifactKey: Guid(788fb8199b2b6db469b8ad601c5b951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs using Guid(788fb8199b2b6db469b8ad601c5b951d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca595002ce3dc6d0047ff301893947de') in 0.000744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_X_Example.prefab
+  artifactKey: Guid(660e542dbb2b7d2478865c890adcd3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Prefabs/LED_X_Example.prefab using Guid(660e542dbb2b7d2478865c890adcd3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8883cac46ea74703d9cbb7e33cfddad2') in 0.046158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 41.493859 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable.png
+  artifactKey: Guid(3222a9c550eb588429237a20c31d4a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable.png using Guid(3222a9c550eb588429237a20c31d4a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88295f73f81fa1b69fd5136e9dcc11f1') in 0.044363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_normal.tif
+  artifactKey: Guid(2b77fd5cd99b64847a0a861634d4e60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Textures/Tex_Tileable_normal.tif using Guid(2b77fd5cd99b64847a0a861634d4e60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf2bdbb4e38d36ff53af35ef40149f1') in 0.042385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tomerinio/LEDLightBlocks/Contents/Textures
+  artifactKey: Guid(c66cf5c27d451dd4a8a0d613d2be89f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tomerinio/LEDLightBlocks/Contents/Textures using Guid(c66cf5c27d451dd4a8a0d613d2be89f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ce7740a843fef56d6e62edc1ca7908') in 0.002340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.835 seconds
+Refreshing native plugins compatible for Editor in 5.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.052 seconds
-Domain Reload Profiling: 4903ms
-	BeginReloadAssembly (717ms)
+- Finished resetting the current domain, in  3.483 seconds
+Domain Reload Profiling: 4317ms
+	BeginReloadAssembly (219ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (29ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (239ms)
-	RebuildCommonClasses (161ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (136ms)
-	LoadAllAssembliesAndSetupDomain (811ms)
-		LoadAssemblies (1046ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (518ms)
+		LoadAssemblies (574ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (86ms)
-			TypeCache.Refresh (45ms)
+		AnalyzeDomain (42ms)
+			TypeCache.Refresh (19ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (3053ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (3484ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1041ms)
+		SetupLoadedEditorAssemblies (1551ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (34ms)
+			InitializePlatformSupportModulesInManaged (86ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (132ms)
-			ProcessInitializeOnLoadAttributes (777ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (202ms)
+			ProcessInitializeOnLoadAttributes (1026ms)
+			ProcessInitializeOnLoadMethodAttributes (215ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Refreshing native plugins compatible for Editor in 9.35 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 6.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3663.
-Memory consumption went from 133.3 MB to 133.2 MB.
-Total: 12.537300 ms (FindLiveObjects: 0.464900 ms CreateObjectMapping: 0.710300 ms MarkObjects: 11.150600 ms  DeleteObjects: 0.206300 ms)
+Unloading 4747 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 84 unused Assets / (7.3 MB). Loaded Objects now: 5287.
+Memory consumption went from 209.6 MB to 202.4 MB.
+Total: 17.130500 ms (FindLiveObjects: 0.640800 ms CreateObjectMapping: 0.585000 ms MarkObjects: 10.004800 ms  DeleteObjects: 5.896600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
