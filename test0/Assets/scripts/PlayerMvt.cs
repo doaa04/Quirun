@@ -26,5 +26,8 @@ public class PlayerMvt : MonoBehaviour {
         if (Input.GetKey("a")) {
             rb.AddForce(- sidewayForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange); // force on x axis  
         }
+        if (rb.position.y < -1f) {
+            FindObjectOfType<GameManager>().EndGame();
+        }
     }
 }

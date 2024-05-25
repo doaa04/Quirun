@@ -374,6 +374,8 @@
 "Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Scripts/ExtendedFlycam.cs"
 "Assets/importedPacks/Toby Fredson/The Toby Foliage Engine/(TTFE)_Demo/Scripts/FPSController.cs"
 "Assets/scripts/FollowPlayer.cs"
+"Assets/scripts/GameManager.cs"
+"Assets/scripts/PlayerCollision.cs"
 "Assets/scripts/PlayerMvt.cs"
 "Assets/scripts/Score.cs"
 "Assets/scripts/test.cs"
