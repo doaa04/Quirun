@@ -17,7 +17,8 @@ public class CheckAnswer : MonoBehaviour
 
     public void WrongAnswer()
     {
-        SceneManager.LoadScene(0);
-
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        movement.enabled = true;
     }
 }
