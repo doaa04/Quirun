@@ -6,9 +6,10 @@ In this game, players will navigate through challenging levels filled with obsta
 ## Levels and quiz topics ##
 
 The primary objective of the game is to learn programming concepts while playing. The game features three levels, each focused on a different programming language:
-Level 1: Python
-Level 2: Java
-Level 3: C
+
+### Level 1: ### Python
+### Level 2: ### Java
+### Level 3: ### C
 
 ## How to play ##
 
